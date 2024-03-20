@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/light-tower-team/eslint-plugin/compare/v1.0.3...v1.0.4) (2024-03-20)
+
+
+### Bug Fixes
+
+* remove unhelpful rule ([53954fc](https://github.com/light-tower-team/eslint-plugin/commit/53954fcfb6cc9fce978e8fe03be049b37fca9bbf))
+
 ## [1.0.3](https://github.com/light-tower-team/eslint-plugin/compare/v1.0.2...v1.0.3) (2024-03-20)
 
 
