@@ -1,0 +1,71 @@
+{
+  "name": "@light-tower-team/eslint-plugin",
+  "version": "0.0.0",
+  "description": "This package contains shared eslint config to be used in all javascript projects across Light Tower.",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "keywords": [
+    "eslint",
+    "linting",
+    "eslint-plugin"
+  ],
+  "scripts": {},
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "michailshcherbakov@gmail.com",
+  "bugs": {
+    "url": "https://github.com/light-tower-team/eslint-plugin/issues"
+  },
+  "homepage": "https://github.com/light-tower-team/eslint-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/light-tower-team/eslint-plugin.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "eslint": "^8.57.0",
+    "lefthook": "^1.6.7",
+    "prettier": "^3.2.5",
+    "semantic-release": "^23.0.5",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin": "^1.7.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "typescript-eslint": "^7.3.1"
+  },
+  "release": {
+    "branches": [
+      "master"
+    ],
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "publish": [
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ],
+    "success": false,
+    "fail": false
+  }
+}
