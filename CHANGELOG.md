@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/light-tower-team/eslint-plugin/compare/v1.0.1...v1.0.2) (2024-03-20)
+
+
+### Bug Fixes
+
+* setting ts parser ([07fd63f](https://github.com/light-tower-team/eslint-plugin/commit/07fd63ffea09178ba775739c89c6f9466c45164d))
+
 ## [1.0.1](https://github.com/light-tower-team/eslint-plugin/compare/v1.0.0...v1.0.1) (2024-03-20)
 
 

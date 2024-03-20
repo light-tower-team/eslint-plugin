@@ -1,6 +1,6 @@
 {
   "name": "@light-tower-team/eslint-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package contains shared eslint config to be used in all javascript projects across Light Tower.",
   "type": "module",
   "main": "src/index.js",
