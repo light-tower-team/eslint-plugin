@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/light-tower-team/eslint-plugin/compare/v1.0.2...v1.0.3) (2024-03-20)
+
+
+### Bug Fixes
+
+* **config:** update default config ([ea75993](https://github.com/light-tower-team/eslint-plugin/commit/ea75993ee5d8550a7492f8a66a163ae28a8edeb3))
+
 ## [1.0.2](https://github.com/light-tower-team/eslint-plugin/compare/v1.0.1...v1.0.2) (2024-03-20)
 
 
