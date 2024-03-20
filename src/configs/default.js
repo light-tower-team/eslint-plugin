@@ -14,7 +14,6 @@ export default tseslint.config(
       sourceType: "module",
       parserOptions: {
         project: true,
-        tsconfigRootDir: import.meta.dirname,
       },
     },
     settings: {
@@ -66,7 +65,6 @@ export default tseslint.config(
         },
       ],
       "unicorn/filename-case": ["error", { case: "snakeCase" }],
-      "unicorn/no-array-callback-reference": "error",
       "promise/no-callback-in-promise": "off",
       "no-console": ["error", { allow: ["info", "warn", "error"] }],
       "no-debugger": "error",
@@ -79,6 +77,7 @@ export default tseslint.config(
           caughtErrorsIgnorePattern: "^_",
         },
       ],
+      "@typescript-eslint/no-explicit-any": "off",
       "@typescript-eslint/naming-convention": [
         "error",
         {
