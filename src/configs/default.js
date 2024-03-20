@@ -29,7 +29,6 @@ export default tseslint.config(
       "@stylistic": eslintStylisticPlugin,
     },
     rules: {
-      "@stylistic/indent": ["error", 2],
       "@stylistic/brace-style": ["error", "1tbs", { allowSingleLine: false }],
       curly: "error",
       yoda: ["error", "never"],
