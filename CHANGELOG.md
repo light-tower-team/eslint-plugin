@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/light-tower-team/eslint-plugin/compare/v1.0.4...v1.0.5) (2024-03-29)
+
+
+### Bug Fixes
+
+* **ts:** ignoring unnecessary folders ([ea9f17f](https://github.com/light-tower-team/eslint-plugin/commit/ea9f17fd961502044417e03d426eb9f46de125ca))
+
 ## [1.0.4](https://github.com/light-tower-team/eslint-plugin/compare/v1.0.3...v1.0.4) (2024-03-20)
 
 
