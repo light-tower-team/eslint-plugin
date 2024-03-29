@@ -10,6 +10,8 @@ export default tseslint.config(
   ...tseslint.configs.recommended,
   {
     ignores: ["node_modules", "dist", "coverage"],
+  },
+  {
     languageOptions: {
       ecmaVersion: 2020,
       sourceType: "module",
@@ -81,7 +83,7 @@ export default tseslint.config(
       "@typescript-eslint/naming-convention": [
         "error",
         {
-          selector: ["typeLike", "enumMember"],
+          selector: ["enumMember"],
           format: ["PascalCase"],
         },
         {
